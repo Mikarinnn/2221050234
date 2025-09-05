@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+
+nav{
+    background-color: #0c4ca3;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    padding: 15px;
+}
+
+.border{
+    border-right: 1px solid gray;
+}
+
+.Danhmuc-lienket {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, Arial, Tahoma;
+}
+
+.banner-qc{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.qc{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    border-bottom: 15px solid #f1f1f2;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-box{
+    width: 350px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
