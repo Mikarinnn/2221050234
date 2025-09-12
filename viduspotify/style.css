@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: white;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 240px 1fr 300px;
+  height: 100vh;
+}
+
+.sidebar {
+  background: #000;
+  padding: 20px;
+  overflow: scroll; 
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.sidebar li img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.main-content {
+  background: #181818;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.topbar {
+  margin-bottom: 20px;
+}
+
+.topbar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: #282828;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.right-panel {
+  background: #000;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.now-playing img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #181818;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.progress input[type="range"] {
+  flex: 1;
+  margin: 0 10px;
+}
+.danhmuc{
+    display: flex;
+    background: #282828;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+
+.danhmuc h2 {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  gap: 5px;
+}
+
+.list {
+  background: #282828;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.list img {
+  width: 30px;
+  height: 40px;
+  border-radius: 5px;
+}
