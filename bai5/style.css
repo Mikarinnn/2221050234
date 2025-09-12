@@ -51,3 +51,11 @@ header{
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+
+.thongbao {
+    display: flex;
+    gap: 20px;
+}
+
+
+
