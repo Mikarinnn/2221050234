@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <script>
+        // để viết chú thích trong js
+        document.writeln("hello world" + "<br>"); 
+
+        // JS để nối chuỗi dùng dấu +
+        let hoTen= "Hoang";
+        document.writeln(hoTen + "<br>");
+
+        //Hắng
+        const pi = 3.14;
+
+        let soThuNhat = 10;
+        let soThuHai = 5;
+        let ketQua = 0;
+
+        //+
+        ketQua = soThuNhat + soThuHai;
+        document.writeln(ketQua);
+
+        //-
+        ketQua = soThuNhat - soThuHai;
+        document.writeln(ketQua);
+
+        //*
+        ketQua = soThuNhat * soThuHai;
+        document.writeln(ketQua);
+
+        // /
+        ketQua = soThuNhat / soThuHai;
+        document.writeln(ketQua);
+
+        // % chia lấy số dư
+        ketQua = soThuNhat % soThuHai;
+        document.writeln(ketQua);
+
+        // ++ --
+        document.writeln(ketQua ++);
+        document.writeln(ketQua --);
+
+        // +=
+        soThuNhat+= soThuHai; // soThunhat + sothuhai
+        document.writeln(soThuNhat);
+
+        // -= /= *=
+        soThuNhat -= soThuHai;
+        document.writeln(soThuNhat);
+
+        // ==
+        document.writeln(soThuNhat == soThuHai);
+        document.writeln(soThuNhat === soThuHai);
+        document.writeln(soThuNhat != soThuHai);
+        document.writeln(soThuNhat !== soThuHai);
+        document.writeln(!(soThuNhat !== soThuHai));
+
+        let thongTinSinhVien = {
+            hoTen: "Hoang",
+            tuoi: 22,
+            gioiTinh: true,
+            lop: "Khoa học máy tính K68",
+            diaChi: {
+                thanhPho: "Hạ Long",
+                phuong: "Hà Lầm",
+                duong: "Tổ 6 Khu 2",
+                soNha: 36
+            }
+        }
+
+        let diaChi = {
+            thanhPho: "Hạ Long",
+            phuong: "Hà Lầm",
+            duong: "Tổ 6 Khu 2",
+            soNha: 36
+        }
+
+        let namNay = 2025;
+
+        document.writeln("xin chào " 
+        + thongTinSinhVien.hoTen + "<br>"
+        + " lớp " 
+        + thongTinSinhVien.lop + "<br>"
+        + " Thành phố "
+        + thongTinSinhVien.diaChi.thanhPho + "<br>"
+        + " Năm sinh "
+        + (namNay - thongTinSinhVien.tuoi) + "<br>"
+    );  
+
+    let soThuBa = "9.5";
+    
+    soThuBa = parseFloat(soThuBa);
+
+    document.writeln(typeof (soThuBa));
+    document.writeln(soThuBa);
+
+    </script>
+</body>
+
+</html>
