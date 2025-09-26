@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: #fff;
+  display: flex;
+  width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.illustration {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  padding: 20px;
+  text-align: center;
+}
+
+.illustration img {
+  max-width: 100%;
+  height: auto;
+}
+
+.create-account {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.create-account:hover {
+  text-decoration: underline;
+}
+
+.login-box {
+  flex: 1;
+  padding: 40px;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group i {
+  margin-right: 10px;
+  color: #888;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.options {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.btn {
+  width: 100%;
+  background: #4285f4;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #357ae8;
+}
+
+.extra-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-login a {
+  display: inline-block;
+  margin: 0 5px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+.fb { background: #1877f2; }
+.tw { background: #1da1f2; }
+.gg { background: #db4437; }
