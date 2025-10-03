@@ -71,22 +71,24 @@
         //nhỏ hơn 4 : F
         
     let A = 3;  
-    let B = 6;  
-    let C = 100;  
+    let B = 10;  
+    let C = 0;  
 
     let tong = A * 0.6 + B * 0.3 + C * 0.1;
     
-    if (tong >= 8 && tong < 10) {
+    if ( A, B, C > 10 || A, B, C < 0 ) {
+        document.writeln( " Điểm không hợp lệ ");
+    } else if (tong >= 8 && tong <= 10) {
         document.writeln(" A ");
-    } else if (tong >= 7 && tong < 8) {
+    } else if (tong >= 7 && tong <= 8) {
         document.writeln(" B ");
-    } else if (tong >=5 && tong < 7) {
+    } else if (tong >=5 && tong <= 7) {
         document.writeln(" C ");
-    } else if (tong >=4 && tong <5 ) {
+    } else if (tong >=4 && tong <= 5 ) {
         document.writeln(" D ");
     } else {
         document.writeln(" F ");
-    }
+    } 
 
     </script>
 </body>
