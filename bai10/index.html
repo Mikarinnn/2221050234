@@ -72,5 +72,22 @@
 
         sayHello2(ten,namSinh);
     </script>
+
+    <script>
+        let so = parseInt(prompt("Mời nhập số bất kỳ"));
+
+        function coThamso(so) {
+            if (!so) {
+                document.writeln("Vui lòng nhập lại");
+                }
+            else  {
+                for ( let i = 0; i < so; i++) {
+                    document.writeln("Xin chào" + i + "<br>");
+                }
+            }
+        }
+            coThamso(so);
+            document.writeln(a());
+    </script>
 </body>
 </html>
